@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "assets/models/e3/LICENSE.Apache-2.0.txt",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+    },
+    {
+      "path": "assets/models/e3/model.onnx",
+      "bytes": 363590,
+      "sha256": "0be2fcd95596377c80546fab09f446d0942ed55af5789b25dcc3f3c6089848df"
+    },
+    {
+      "path": "assets/models/e3/verification.json",
+      "bytes": 2246,
+      "sha256": "535b634c27332a4b08bb7e4b2612090ae9951766ba3494c07e87959c7e6a6422"
+    },
+    {
+      "path": "assets/models/hyperlpr3/LICENSE.HyperLPR.txt",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+    },
+    {
+      "path": "assets/models/hyperlpr3/provenance.json",
+      "bytes": 1079,
+      "sha256": "03ace1954fb7ec9c2c36ff9edcb954ae52127589b436c43d9d6d314bc0003c54"
+    },
+    {
+      "path": "assets/models/hyperlpr3/rpv3_mdict_160_r3.onnx",
+      "bytes": 8938057,
+      "sha256": "6aae81556ce5764fd5845937b830f4c30a70a1a0ecd863bb6ebbdeca2123c503"
+    },
+    {
+      "path": "assets/models/hyperlpr3/tokens.json",
+      "bytes": 469,
+      "sha256": "e63c97500aeb9ba224f682ed784739eb10aa0eb7752d124758d087595c01fd27"
+    },
+    {
+      "path": "assets/models/hyperlpr3/y5fu_640x_sim.onnx",
+      "bytes": 3930791,
+      "sha256": "0306de937471b87f56eb3f5620815e7e7058f8ab7428e0734fc64627cc4d716c"
+    },
+    {
+      "path": "assets/models/provenance.json",
+      "bytes": 2907,
+      "sha256": "d0f4e89a23db45d66470a31944aef1295241ea686159aadfc1357f03316cfcd8"
+    },
+    {
+      "path": "assets/models/yolo/LICENSE.AGPL-3.0.txt",
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "assets/models/yolo/detector.onnx",
+      "bytes": 9756961,
+      "sha256": "70f97d9a5d12e8098bdacf0c9b8cda2f8677c670fa06154df4565c5378dea847"
+    }
+  ]
+}

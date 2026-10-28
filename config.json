@@ -1,0 +1,18 @@
+{
+  "mode": "replace",
+  "input": "input",
+  "output": "outputs/replaced",
+  "count": 100,
+  "plate_type": "blue",
+  "fonts": {
+    "han": "assets/fonts/plate_han.ttf",
+    "latin": "assets/fonts/plate_latin.ttf"
+  },
+  "format": "png",
+  "seed": 42,
+  "workers": 2,
+  "resume": false,
+  "render_mode": "material",
+  "augment": true,
+  "export_crops": true
+}

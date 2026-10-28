@@ -1,0 +1,43 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+outputs/
+cache/
+*.sqlite3-wal
+*.sqlite3-shm
+:memory:.ses
+
+# Local datasets and generated deliveries are not source.
+/input/
+/config.local.json
+/reports/
+/offline/
+/reference/
+/configs/local_*.json
+/configs/baseline_*.json
+/configs/heldout_*.json
+/examples/raw/
+/examples/index.json
+/examples/provenance.json
+
+# Fonts and private model-training records stay local.
+/assets/fonts/
+/assets/models/**/*.onnx
+/assets/models/e3/*
+/assets/models/yolo/*
+
+# Explicitly approved model release files only.
+!/assets/models/hyperlpr3/y5fu_640x_sim.onnx
+!/assets/models/hyperlpr3/rpv3_mdict_160_r3.onnx
+!/assets/models/yolo/detector.onnx
+!/assets/models/yolo/LICENSE.AGPL-3.0.txt
+!/assets/models/e3/model.onnx
+!/assets/models/e3/verification.json
+!/assets/models/e3/LICENSE.Apache-2.0.txt
+.env
+.env.*
+!.env.example

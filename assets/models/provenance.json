@@ -1,0 +1,64 @@
+{
+  "models": [
+    {
+      "path": "assets/models/hyperlpr3/y5fu_640x_sim.onnx",
+      "bytes": 3930791,
+      "sha256": "0306de937471b87f56eb3f5620815e7e7058f8ab7428e0734fc64627cc4d716c",
+      "origin": "HyperLPR fixed upstream revision",
+      "provenance": "assets/models/hyperlpr3/provenance.json",
+      "licence_material": "assets/models/hyperlpr3/LICENSE.HyperLPR.txt",
+      "status": "research_teacher_not_production",
+      "provider": "CPUExecutionProvider",
+      "distributed": true,
+      "license_spdx_id": "Apache-2.0"
+    },
+    {
+      "path": "assets/models/hyperlpr3/rpv3_mdict_160_r3.onnx",
+      "bytes": 8938057,
+      "sha256": "6aae81556ce5764fd5845937b830f4c30a70a1a0ecd863bb6ebbdeca2123c503",
+      "origin": "HyperLPR fixed upstream revision",
+      "provenance": "assets/models/hyperlpr3/provenance.json",
+      "licence_material": "assets/models/hyperlpr3/LICENSE.HyperLPR.txt",
+      "status": "research_teacher_not_production",
+      "provider": "CPUExecutionProvider",
+      "distributed": true,
+      "license_spdx_id": "Apache-2.0",
+      "source_binary_sha256": "35521a46fd8beaa6fd942f969bc666f4ef5c8433d2082eae002e6c94c5d307a2",
+      "release_changes": [
+        "Removed exporter filesystem paths from ONNX node doc_string fields; computation graph and all tensors unchanged"
+      ]
+    },
+    {
+      "path": "assets/models/yolo/detector.onnx",
+      "bytes": 9756961,
+      "sha256": "70f97d9a5d12e8098bdacf0c9b8cda2f8677c670fa06154df4565c5378dea847",
+      "origin": "Locally trained Ultralytics YOLO26n; exported with Ultralytics 8.4.138",
+      "provenance": "README.md",
+      "licence_material": "assets/models/yolo/LICENSE.AGPL-3.0.txt",
+      "status": "research_teacher_not_production",
+      "provider": "CPUExecutionProvider",
+      "distributed": true,
+      "license_spdx_id": "AGPL-3.0",
+      "upstream_source": "https://github.com/ultralytics/ultralytics/tree/v8.4.138",
+      "source_binary_sha256": "6709fc5b2c177fdca3752a5e31a94757c10079d8a056a66fe99ea189883e0772",
+      "release_changes": [
+        "Removed private training path from description metadata; graph and initializers unchanged"
+      ]
+    },
+    {
+      "path": "assets/models/e3/model.onnx",
+      "bytes": 363590,
+      "sha256": "0be2fcd95596377c80546fab09f446d0942ed55af5789b25dcc3f3c6089848df",
+      "origin": "Custom PlateOCRDualHead, fresh-trained on CBLPRD-330k",
+      "provenance": "assets/models/e3/verification.json",
+      "licence_material": "assets/models/e3/LICENSE.Apache-2.0.txt",
+      "status": "research_teacher_not_production",
+      "provider": "CPUExecutionProvider",
+      "distributed": true,
+      "license_spdx_id": "Apache-2.0",
+      "license_scope": "E3 model.onnx weights; Apache-2.0 selected by the model publisher",
+      "training_dataset_source": "https://github.com/SunlifeV/CBLPRD-330k",
+      "training_dataset_license": "MIT"
+    }
+  ]
+}

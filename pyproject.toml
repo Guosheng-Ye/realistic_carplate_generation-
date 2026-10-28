@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "realistic-carplate-generation"
+version = "1.0.0"
+description = "Generate Chinese plate images and replace plate numbers in photos"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.12,<3.13"
+dependencies = ["numpy==1.26.4", "Pillow==10.2.0", "opencv-python==4.11.0.86", "scipy==1.11.4"]
+
+[project.optional-dependencies]
+detection = ["onnxruntime==1.29.0"]
+
+[project.scripts]
+rcg = "realistic_carplate_generation.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+realistic_carplate_generation = ["resources/*.json"]

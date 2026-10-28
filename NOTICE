@@ -1,0 +1,24 @@
+Realistic Carplate Generation
+Copyright 2026 Realistic Carplate Generation contributors
+
+Project-authored source code is licensed under the Apache License, Version 2.0.
+See LICENSE for the complete terms.
+
+Bundled model files retain their separate licenses and attribution:
+
+- HyperLPR detection and recognition models: Apache-2.0.
+  The original license and fixed upstream provenance are included under
+  assets/models/hyperlpr3/.
+- E3 model weights: Apache-2.0, as granted by the model publisher.
+  See assets/models/e3/LICENSE.Apache-2.0.txt and verification.json.
+- YOLO26n detector weights: AGPL-3.0.
+  See assets/models/yolo/LICENSE.AGPL-3.0.txt and the upstream source and
+  corresponding-source information in README.md and assets/models/provenance.json.
+
+The project source-code license does not relicense these model files or replace
+their respective obligations.
+
+README figures retain historical real-photo and synthetic-image comparisons,
+including original plate numbers in the source-image panels. Source-image
+rights follow their respective source terms.
+Font files are not distributed in this repository.

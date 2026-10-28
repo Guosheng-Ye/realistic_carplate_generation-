@@ -1,0 +1,23 @@
+{
+  "source": "szad670401/HyperLPR",
+  "revision": "58ad4ef736fec5289e8c8cb842e066e70c4672c3",
+  "models": [
+    {
+      "name": "y5fu_640x_sim.onnx",
+      "bytes": 3930791,
+      "sha256": "0306de937471b87f56eb3f5620815e7e7058f8ab7428e0734fc64627cc4d716c",
+      "url": "https://raw.githubusercontent.com/szad670401/HyperLPR/58ad4ef736fec5289e8c8cb842e066e70c4672c3/resource/models/onnx/y5fu_640x_sim.onnx"
+    },
+    {
+      "name": "rpv3_mdict_160_r3.onnx",
+      "bytes": 8938057,
+      "sha256": "6aae81556ce5764fd5845937b830f4c30a70a1a0ecd863bb6ebbdeca2123c503",
+      "url": "https://raw.githubusercontent.com/szad670401/HyperLPR/58ad4ef736fec5289e8c8cb842e066e70c4672c3/resource/models/onnx/rpv3_mdict_160_r3.onnx",
+      "source_binary_sha256": "35521a46fd8beaa6fd942f969bc666f4ef5c8433d2082eae002e6c94c5d307a2",
+      "release_changes": [
+        "Removed exporter filesystem paths from ONNX node doc_string fields; computation graph and all tensors unchanged"
+      ]
+    }
+  ],
+  "tokens_sha256": "e63c97500aeb9ba224f682ed784739eb10aa0eb7752d124758d087595c01fd27"
+}

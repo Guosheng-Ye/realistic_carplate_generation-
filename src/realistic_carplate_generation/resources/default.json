@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "seed": 20261023,
+  "format": "jpg",
+  "jpeg_quality": 96,
+  "min_plate_height": 32,
+  "confidence": 0.75,
+  "reuse_blue": 3,
+  "reuse_green": "auto",
+  "render_mode": "material",
+  "augment": true,
+  "export_crops": true,
+  "plan_time_limit": 30,
+  "heldout_registry": null,
+  "heldout_fingerprints": null,
+  "roots": {},
+  "assets_dir": null,
+  "fonts": {
+    "han": "fonts/plate_han.ttf",
+    "latin": "fonts/plate_latin.ttf",
+    "preview": "fonts/preview.ttc"
+  },
+  "models": {"yolo_hints": false, "e3_ocr": false},
+  "generate_report": false
+}
